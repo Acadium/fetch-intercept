@@ -1,5 +1,5 @@
 {
-  "name": "fetch-intercept",
+  "name": "@Acadium/fetch-intercept",
   "version": "2.3.1",
   "description": "Interceptor library for the native fetch command inspired by angular http intercepts.",
   "main": "lib/node.js",
@@ -11,13 +11,8 @@
     "webpack": "webpack",
     "prepublish": "npm test && webpack && webpack -p"
   },
-  "homepage": "https://github.com/werk85/fetch-intercept",
-  "bugs": {
-    "url": "https://github.com/werk85/fetch-intercept/issues",
-    "email": "legenhausen@werk85.de"
-  },
   "repository": {
-    "url": "https://github.com/werk85/fetch-intercept.git"
+    "url": "https://github.com/Acadium/fetch-intercept"
   },
   "keywords": [
     "fetch",
@@ -28,7 +23,9 @@
   ],
   "author": "Malte Legenhausen <legenhausen@werk85.de>",
   "license": "MIT",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.7.4",
