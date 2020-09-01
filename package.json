@@ -1,5 +1,5 @@
 {
-  "name": "@Acadium/fetch-intercept",
+  "name": "@acadium/fetch-intercept",
   "version": "2.3.1",
   "description": "Interceptor library for the native fetch command inspired by angular http intercepts.",
   "main": "lib/node.js",
